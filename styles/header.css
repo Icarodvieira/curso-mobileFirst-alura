@@ -31,6 +31,14 @@
     width: 60vw;
 }
 
+.container__botao:checked~.container__rotulo>.cabeçalho__menu-hamburguer{
+    background-image: url("../imgs/menu_black_24dp\ 1.svg");
+}
+
+.container__botao:checked~.container__rotulo {
+    background: var(--azul-degrade);
+}
+
 .container__botao:checked~.lista-menu {
     display: block;
 }
